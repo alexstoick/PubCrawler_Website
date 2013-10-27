@@ -1,0 +1,86 @@
+/**
+ * Navigation
+ */
+
+#main-content {
+	width: 100%;
+}
+
+div.nbar {
+	width: 80%;
+	margin: 0 auto;
+	background-color: #eee;
+}
+
+div.nbar-content {
+	position: absolute;
+	width: 80%;
+	margin-top: 25px;
+}
+
+/**
+ * Main container
+ */
+
+div.map {
+	position: relative;
+}
+
+div.map-info {
+	width: 200px;
+}
+
+div.main-container {
+	border: 1px solid black;
+}
+
+div.main-content {
+	padding: 0;
+	margin: 0;
+}
+
+
+.page-footer {
+	width: 80%;
+	margin: 0 auto;
+}
+
+ul.nav {
+	margin-top: 7px;
+}
+
+.navbar-welcome {
+	padding-top: 12px;
+	margin-right: 15px;
+}
+
+/**
+ * Internal pages
+ */
+
+#pages-content {
+	width: 100%;
+	position: absolute;
+	
+}
+
+.pages-container {
+	position: absolute;
+	width: 80%;
+	margin: 50px;
+}
+
+.pages-nbar {
+	margin: 0 auto;
+}
+
+.pages-nbar-content {
+	margin: 25px;
+}
+
+.pages-map {
+	position: absolute;
+}
+.pages-map-wrapper {
+	position: absolute;
+}

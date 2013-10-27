@@ -1,0 +1,40 @@
+.star-rating a:hover {
+	cursor: pointer;
+	color: #f0ad4e;
+}
+.star-rating-rtl a:hover {
+	cursor: pointer;
+	color: #428bca;
+}
+
+.star-rating a,
+.star-rating-rtl a {
+    color: black;
+    font-size: 30px;
+    cursor: default;
+    text-decoration: none;
+    line-height: 30px;
+}
+.star-rating {
+    padding: 2px;
+}
+.star-rating-rtl {
+    background: #428bca;
+    display: inline-block;
+    border: 2px solid #444;
+}
+.star-rating-rtl a {
+    color: #f0ad4e;
+}
+.star-rating a:hover:before, .star-rating a.rated:before {
+    content: "\00A3";
+}
+.star-rating a:before {
+    content: "\00A3";
+}
+.star-rating-rtl a:hover:after, .star-rating-rtl a.rated:after{
+    content: "\00A3";
+}
+.star-rating-rtl a:after {
+    content: "\00A3";
+}
